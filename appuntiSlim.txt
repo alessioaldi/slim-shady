@@ -1,0 +1,5 @@
+htaccess è usato da apache per definire delle regole
+slim è un framework che permette di fare routing e converge tutte le richieste su un unico file e uso per questo l'htaccess
+
+dentro $args ci sono i nomi dell'url e si usa come un array associativo
+$nome= $args['nome'];
