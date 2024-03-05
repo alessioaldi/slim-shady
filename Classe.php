@@ -17,6 +17,8 @@
         function searchByName($n){
             $results =  [];
             for($i = 0; $i<3; $i++){
+
+                //confronta le stringhe trasformate in carattere minuscolo e le aggiunge a results
                 if(strtolower($n)==strtolower($this->array[$i]->getNome())){
                     $results []= $this->array[$i];
                 }

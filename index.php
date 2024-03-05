@@ -10,6 +10,7 @@ include_once "controller/AlunniController.php";
 
 $app = AppFactory::create();
 
+//chiama il controller in base alla richiesta get
 $app->get('/','SiteController:index');
 $app->get("/alunni", "AlunniController:index");
 $app->get('/alunni/{nome}', 'AlunniController:search');
